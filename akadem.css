@@ -1,0 +1,132 @@
+.site-header{
+    background-color: #ffffff;
+}
+ul{
+    list-style-type: none;
+}
+.header1{
+    border: 5px solid #FF7500;
+}
+/* ro'yhatlar */
+
+.list-items{
+    font-weight: 500;
+    font-size: 13;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+}
+a{
+
+text-decoration: none;
+}
+
+/* tugmalar */
+.main-link{
+    font-size: 13px;
+    line-height: 15px;
+    background-color: #ff7500;
+    color: #fff;
+    text-decoration: none;
+}
+/* imtiyozlar */
+.hero-content{
+    width: 390px;
+    color: #ffffff;
+}
+.hero{
+    background-color: #252420;
+    counter-reset: #fff;
+}
+.hero-hr{
+    width: 80px;
+    height: 3px;
+    background-color: #ff7500;
+}
+.hero-heading{
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.5;
+}
+.hero-teht{
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5;
+}
+.img{
+    width: 510px;
+    height: 510px;
+    display: inline;
+}
+/* feuters */
+
+.features-heading{
+width: 440px;
+font-size: 72px;
+line-height: 1.2;
+letter-spacing: 0.5px;
+
+}
+.ft-li{
+    width: 340px;
+
+}
+
+.features-icon{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 117, 0, 0.2);
+}
+.h3{
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+.ft-info{
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5;
+}
+/* test bolalar */
+
+.test-bolalar{
+    background-color: #252420;
+    color: #fff;
+}
+.test_bolalar{
+    width: 440px;
+}
+.test_bolalar-img{
+    width: 440px;
+    height: 440px;
+}
+.bola-heding{
+    font-size: 40px;
+    line-height: 48px;
+}
+.bola-parag{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.test_bolalar-img{
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+}
+.site-footer {
+    background-color: #f8f8f8;
+}
+.footer-hr{
+    height: 2px;
+    background-color: rgba(37, 36, 32, 0.5);
+}
+.footer-link{
+    width: 224px;
+}
+.site-footer a{
+    color: #252420;
+    font-size: 16px;
+    line-height: 19px;
+}
+
