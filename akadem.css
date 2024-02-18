@@ -1,13 +1,46 @@
+
 .site-header{
     background-color: #ffffff;
+   
+}
+*:focus{
+outline: 3px dotted #FF7500;
+outline-offset: 3px;
+}
+.logo-link{
+    transition: opacity 0.4s ease;
+}
+.logo-link:hover{
+    opacity: 0.8;
+}
+.logo-link:active{
+    opacity: 0.6;
+}
+.bb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 ul{
     list-style-type: none;
 }
 .header1{
     border: 5px solid #FF7500;
+
 }
 /* ro'yhatlar */
+
+.header{
+    border-top: 5px solid #FF7500;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.header-list{
+    display: flex;
+align-items: center;
+font-weight: bold;
+padding: 0;
+}
 
 .list-items{
     font-weight: 500;
@@ -16,9 +49,15 @@ ul{
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #000;
+    transition: color 0.4s ease, opacity 0.4s ease;
+}
+.list-items:hover{
+    color: #ff7500;
+}
+.list-items:active{
+    opacity: 0.6;
 }
 a{
-
 text-decoration: none;
 }
 
@@ -29,20 +68,43 @@ text-decoration: none;
     background-color: #ff7500;
     color: #fff;
     text-decoration: none;
+    transition: 0.4s;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: bold;
+
+}
+.main-link:hover{
+opacity: 0.8;
+}
+.main-link:active{
+    opacity: 0.6;
 }
 /* imtiyozlar */
+
 .hero-content{
     width: 390px;
     color: #ffffff;
+
+    
+    
 }
 .hero{
     background-color: #252420;
     counter-reset: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
 }
 .hero-hr{
     width: 80px;
     height: 3px;
     background-color: #ff7500;
+    border: 0;
 }
 .hero-heading{
     font-size: 40px;
@@ -57,9 +119,24 @@ text-decoration: none;
 .img{
     width: 510px;
     height: 510px;
-    display: inline;
+   
+
 }
 /* feuters */
+.features{
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
+.features-heading{
+    align-items: center;
+    justify-content: center;
+}
+.features-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
 
 .features-heading{
 width: 440px;
@@ -77,6 +154,10 @@ letter-spacing: 0.5px;
     width: 100px;
     height: 100px;
     background-color: rgba(255, 117, 0, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .h3{
     font-size: 24px;
@@ -93,6 +174,10 @@ letter-spacing: 0.5px;
 .test-bolalar{
     background-color: #252420;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
 }
 .test_bolalar{
     width: 440px;
@@ -100,6 +185,7 @@ letter-spacing: 0.5px;
 .test_bolalar-img{
     width: 440px;
     height: 440px;
+    border-radius: 12px;
 }
 .bola-heding{
     font-size: 40px;
@@ -114,15 +200,53 @@ letter-spacing: 0.5px;
     height: 440px;
     object-fit: cover;
 }
+/* footer */
+
 .site-footer {
     background-color: #f8f8f8;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    
+    
+}
+.siteheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footerlist a:hover{
+    color: #FF7500;
+}
+.footerlist a:active{
+    opacity: 0.6;
+}
+.footerlist{
+    display: flex;
+}
+
+.footerlist a{
+    color: #252420;
+}
+.footer_list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
 }
 .footer-hr{
+    border: 0;
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
 }
 .footer-link{
     width: 224px;
+    line-height: 5px;
+    padding: 0;
+}
+.footer-link:hover{
+    color: #ff7500;
+}
+.footer-link:active{
+    opacity: 0.6;
 }
 .site-footer a{
     color: #252420;
